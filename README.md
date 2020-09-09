@@ -1,7 +1,7 @@
 # 前端单元测试和集成测试
+test-----------
 
-
-## 测试驱动开发和测试用例
+## 测试用例
 
 
 
@@ -11,7 +11,7 @@
 
 
 
-
+[![Build Status](https://api.travis-ci.org/xianjiezh/unit-test.svg?branch=master)](https://travis-ci.org/xianjiezh/unit-test)
 
 ## 相关依赖库
 jest dom[https://github.com/testing-library/jest-dom]
