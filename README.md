@@ -32,3 +32,5 @@ react-testing-library/api[https://testing-library.com/docs/react-testing-library
 测试事件  https://github.com/testing-library/user-event
 
 travis 文档 https://docs.travis-ci.com/user/languages
+
+测试例子：https://react-testing-examples.com/jest-rtl/
