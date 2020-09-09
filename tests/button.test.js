@@ -23,7 +23,8 @@ describe('antd button', () => {
     render(<Button onClick={onClick}>test</Button>)
     
     fireEvent.click(screen.getByText('test'))
-    expect(onClick).toHaveBeenCalled()
+    fireEvent.click(screen.getByText('test'))
+    expect(onClick.mock.calls.length).toBe(2)
   })
 
 })
