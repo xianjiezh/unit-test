@@ -1,5 +1,26 @@
+const { defaults } = require('jest-config');
+
 module.exports = {
-  "setupFilesAfterEnv": [
-    "<rootDir>/src/setuptests.js"
+  coverageDirectory: 'reports/coverage',
+  coverageReporters: ['lcov'],
+  moduleFileExtensions: [
+    ...defaults.moduleFileExtensions,
+    'ts',
+    'tsx',
+  ],
+  reporters: [
+    'default',
+    // ['jest-junit', { outputDirectory: 'reports/junit' }],
+  ],
+  testMatch: [
+    '**/tests/**/*.js',
+  ],
+  testPathIgnorePatterns: [
+    '/node_modules/',
+    '/tests/mocks/*',
+  ],
+  automock: false,
+  setupFilesAfterEnv: [
+    "<rootDir>/src/setupTests.js"
   ]
-}
+};
