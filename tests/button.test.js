@@ -20,7 +20,7 @@ describe('antd button', () => {
 
   test('can fire click event', () => {
     const onClick = jest.fn()
-    render(<Button disabled onClick={onClick}>test</Button>)
+    render(<Button onClick={onClick}>test</Button>)
     
     fireEvent.click(screen.getByText('test'))
     expect(onClick).toHaveBeenCalled()
