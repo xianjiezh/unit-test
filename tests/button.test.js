@@ -23,7 +23,7 @@ describe('antd button', () => {
     render(<Button disabled onClick={onClick}>test</Button>)
     
     fireEvent.click(screen.getByText('test'))
-    expect(onClick).toHaveBeenCalled
+    expect(onClick).toHaveBeenCalled()
   })
 
 })
