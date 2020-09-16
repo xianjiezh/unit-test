@@ -235,3 +235,4 @@ sudo: required
 
 ## 使用 puppeteer 测试业务
 
+https://github.com/xianjiezh/demo-puppeteer
