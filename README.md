@@ -23,7 +23,7 @@ console.assert(getNameFromDockerImage('harbor.sigsus.cn:8443/sz_gongdianju/apuli
 
 初始化前端开发环境
 ```
-yarn add create-react-app --globalyar
+yarn add create-react-app --global
 create-react-app .
 ```
 
